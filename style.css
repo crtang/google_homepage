@@ -1,0 +1,237 @@
+{margin: 0; padding: 0;}
+
+html {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	font-family: Arial, sans-serif;
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+p {
+	display: inline;
+}
+
+a {
+	margin: 0 10px;
+}
+
+form {
+	margin: 20px auto;
+	margin-bottom: 30px;
+	width: 484px;
+	height: 44px;
+	padding: 0px;
+	font-size: 16px;
+}
+
+
+#header {
+	margin: 0 0 10px 0;
+	padding: 15px 5px;
+	height: 50px;
+	box-sizing: border-box;
+	display: block;
+	font-size: 13px;
+}
+
+#in-header {
+	margin: 0;
+	width: 281px;
+	height: 30px;
+	display: inline-flex;
+	float: right;
+	box-sizing: border-box;
+	justify-content: center;
+	align-items: center;
+	background-color: #ffffff;
+}
+
+#in-header a, a:hover, a:visited {
+	margin: 0 10px;
+	padding: 0;
+	display: inline;
+	font-weight: 300;
+	color: #000000;
+}
+
+.header-links, .other-header-links {
+	display: inline-flex;
+}
+
+.header-links a, a:link, a:hover, a:visited {
+	margin: 0;
+	padding: 0;
+}
+
+.header-links a, a:visited {
+	text-decoration: none;
+}
+
+.header-links a:hover {
+	text-decoration: underline;
+}
+
+.other-header-links {
+	justify-content: center;
+	align-items: center;
+}
+
+.other-header-links a, a:hover, a:visited {
+	text-decoration: none;
+}
+
+#in-header button {
+	padding: 6px 12px;
+	display: inline;
+	border: 1px solid #4285f4;
+	border-radius: 2px;
+	background: -webkit-linear-gradient(top, #4387fd, #4683ea);
+	font-size: 13px;
+	color: #ffffff;
+	text-align: center;
+}
+
+#google button {
+	padding: 10px 15px;
+	display: inline;
+	border: 1px solid #efefef;
+	border-radius: 2px;
+	background: #efefef;
+	font-size: 13px;
+	color: #6d6d6d;
+}
+
+.grid {
+	width: 16px;
+	height: 16px;
+	opacity: .55;
+	z-index: -1;
+}
+
+.grid:hover {
+	opacity: 1;
+}
+
+.other-header-links a#no-mr {
+	margin-right: 0;
+}
+
+button.signin {
+	padding: 10px;
+	text-decoration: none;
+}
+
+#google {
+	margin: 150px auto;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+}
+
+div.search-box {
+	margin: 0px auto;
+	width: 484px;
+	height: 44px;
+	border: 1px solid #dddddd;
+	border-bottom: 1px solid #cccccc;
+	border-radius: 2px;
+	box-sizing: border-box;
+	-webkit-box-shadow: 0 1px 1px #dddddd;
+	box-shadow: 0 1px 1px #dddddd;
+}
+
+div.search-box:focus {
+	-webkit-box-shadow: 0 2px 5px #cccccc;
+}
+
+.search {
+	padding: 25px;
+	height: 25px;
+}
+
+input.search-text {
+	padding: 6px 9px 6px 16px;
+	width: 428px;
+	height: 42px;
+	float: left;
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	border: none;
+	box-shadow: none;
+	box-sizing: border-box;
+}
+
+input:focus {
+	outline: none;
+}
+
+#voice-search span {
+	margin: 0 auto;
+	width: 24px;
+	height: 24px;
+	background: url(mic.png) no-repeat -3px 0;
+	background-size: 24px 24px;
+	box-sizing: border-box;
+	z-index: 1;
+}
+
+.block {
+	margin: 0 auto;
+	padding: 0;
+	display: block;
+}
+
+.pad-right {
+	margin: 0 5px 0 0;
+}
+
+#footer {
+	padding: 13px 20px;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	border-top: 1px solid #dedfde;
+	background-color: #eeeeee;
+	font-size: 13px;
+	text-align: center;
+	box-sizing: border-box;
+	z-index: 20;
+}
+
+#footer a, a:visited {
+	margin: 0;
+	color: #666666;
+	text-decoration: none;
+}
+
+#footer a:hover {
+	margin: 0;
+	text-decoration: underline;
+}
+
+#left {
+	float: left;
+}
+
+#left a, a:hover, a:visited {
+	padding: 0 10px;
+}
+
+#right {
+	float: right;
+}
+
+#right a, a:hover, a:visited {
+	padding: 0 10px;
+}
+
+
+
