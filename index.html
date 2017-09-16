@@ -41,23 +41,24 @@
 
 			<form action="search" method="GET" name="s">
 				<div class="search-box">
-					<div id="search">
-						<input class="search-text" title="Search" type="text" />
-					</div>
-					<div id="voice-search">
-						<span></span>
+					<div class="sb">
+						<div id="search">
+							<input class="search-text" title="Search" type="text" />
+						</div>
+						<div id="voice-search-bar">
+							<div id="voice-search">
+								<div id="mic-div">
+									<span id="microphone"></span>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</form>
 
 			<div class="block">
-				<button class="pad-right" type="submit">
-					<strong>Google Search</strong>
-				</button>
-
-				<button type="button">
-					<strong>I'm Feeling Lucky</strong>
-				</button>
+				<input id="pad-right" value="Google Search" type="submit">
+				<input id="pad-left" value="I'm Feeling Lucky" type="submit">
 			</div>
 		</div>
 
